@@ -42,7 +42,7 @@ a {
     font-family: 'Shadows Into Light', cursive
 }
 
-.about_me {
+.text {
     background-color:#F9D9DE;
     border-radius: 0.25rem;
 }
@@ -54,7 +54,7 @@ a {
     font-size: 1.2rem;
 }
 
-.about_me #para {
+.para {
     font-size: 1rem;
     margin: 0.25rem;
 
@@ -89,11 +89,25 @@ a {
     background-color: #F9D9DE;
 }
 
+#gallery_output {
+    margin-bottom: 3rem;
+}
+
 .gallery img {
-    max-width: 19%;
-    flex: 19%;
+    max-width: 15.6666%;
+    flex: 15.6666%;
 
     margin: 0.5%;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:400px) {
+    .gallery img {
+        max-width: 32.3333%;
+        flex: 32.3333%;
+
+        margin: 0.5%;
+    }
 }
 
 .footer {

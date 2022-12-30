@@ -14,7 +14,7 @@ function fetchGallery(mode){
 function fillGallery(content){
     output = "";
     content.gallery.forEach(element => {
-        output += element;
+        output += "<img src=\"./images/gallery/" + element + "\"></img>\n";
     });
     document.getElementById("gallery_output").innerHTML = output;
 }
@@ -22,7 +22,7 @@ function fillGallery(content){
 function fillHomePage(content){
     output = "";
     indecies = [];
-    for (i = 0; i < 5; i++){
+    for (i = 0; i < 6; i++){
         while (true){
             index = Math.floor(Math.random() * content.gallery.length);
             if (!indecies.includes(index)){break;}
@@ -31,7 +31,7 @@ function fillHomePage(content){
     }
     output = "";
     indecies.forEach(element => {
-        output += content.gallery[element];
+        output += "<img src=\"./images/gallery/" + content.gallery[element] + "\"></img>\n";
     });
     document.getElementById("homepage_output").innerHTML = output;
 }
