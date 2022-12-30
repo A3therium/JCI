@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    background-color:antiquewhite;
+
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-size: 1rem;
+    text-align: center;
+
+    padding: 0;
+
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1rem black;
+    font-family: 'Shadows Into Light', cursive
+}
+
+.about_me {
+    background-color:#F9D9DE;
+    border-radius: 0.25rem;
+}
+
+.heading {
+    margin: 0.25rem;
+    padding-top: 0.1rem;
+
+    font-size: 1.2rem;
+}
+
+.about_me #para {
+    font-size: 1rem;
+    margin: 0.25rem;
+
+    padding-bottom: 0.1rem;
+}
+
+.content {
+    background-color: #F9D9DE;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+
+    margin-left: 0.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.gallery {
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+
+    width: 100%;
+    padding-bottom: 1rem;
+
+    background-color: #F9D9DE;
+}
+
+.gallery img {
+    max-width: 19%;
+    flex: 19%;
+
+    margin: 0.5%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: left;
+
+    align-items: center;
+    height: 3rem;
+
+    display: inline-flex;
+}
+
+.footer img {
+    width: 2rem;
+    text-align: center;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.footer p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    font-size: 1rem;
+}
