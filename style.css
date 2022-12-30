@@ -101,10 +101,19 @@ a {
     margin-bottom: 0;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
     .gallery img {
         max-width: 32.3333%;
         flex: 32.3333%;
+
+        margin: 0.5%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .gallery img {
+        max-width: 49%;
+        flex: 49%;
 
         margin: 0.5%;
     }
